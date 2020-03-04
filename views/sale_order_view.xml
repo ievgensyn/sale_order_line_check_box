@@ -1,0 +1,12 @@
+<odoo>
+    <record id="shipping_from_so_line_form_view" model="ir.ui.view">
+        <field name="name">shipping.from.so.line.form.view</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page[@name='order_lines']/field/tree/field[@name='product_uom_qty']" position="after">
+                <field name="is_check_box"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
