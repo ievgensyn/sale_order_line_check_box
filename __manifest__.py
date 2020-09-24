@@ -1,14 +1,14 @@
 {
-    'name': 'Sale order: shipping from SOL ',
+    'name': 'Checkbox "Express Shipping" in sol',
 
-    'summary': 'Sale Order Shipping From SO line',
+    'summary': 'Extending Sale functionality',
 
     'author': 'Ievgen Synchyshyn',
     'website': 'https://example.com/',
 
     'category': 'Sales',
     'license': 'Other proprietary',
-    'version': '13.0.1.0.1',
+    'version': '13.0.1.0.2',
 
     'depends': ['base', 'sale', ],
     'data': [

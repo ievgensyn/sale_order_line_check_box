@@ -5,7 +5,7 @@
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
             <xpath expr="//notebook/page[@name='order_lines']/field/tree/field[@name='product_uom_qty']" position="after">
-                <field name="is_check_box"/>
+                <field name="is_express_shipping"/>
             </xpath>
         </field>
     </record>

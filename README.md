@@ -1,1 +1,2 @@
-# sale_order_line_check_box
+# sol_check_box
+* add checkbox to sol for preparing selected order lines for delivery
