@@ -10,7 +10,9 @@
     'license': 'Other proprietary',
     'version': '13.0.1.0.2',
 
-    'depends': ['base', 'sale', ],
+    'depends': [
+        'base', 'sale_stock',
+    ],
     'data': [
         'views/sale_order_view.xml',
     ],
